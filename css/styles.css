@@ -1497,7 +1497,8 @@ position: relative;
 }
 .footer-form-container {
   padding-top: 14px;
-  margin-left: 93px;
+  margin-left: 593px;
+  float: left;
 }
 
 .footer-form-container button {
