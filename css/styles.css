@@ -1097,7 +1097,7 @@ border: 1px solid #EEEEEE;
     height: 23px;
     left: 576px;
     top: 261px;
-    margin-top: 40px;
+    margin-top: 2px;
     margin-bottom: 12px;
     
     font-family: Roboto;
@@ -1184,10 +1184,10 @@ border: 1px solid #EEEEEE;
     color: var(--secondary-text-color);
   }
   
-  .checkwindow{
+  /*.checkwindow{
     margin-right: 30px;
-  }
-  
+  }*/
+
   .input-check-castom {
     margin-right: 7px;
     padding-bottom: 20px;
@@ -1216,6 +1216,7 @@ border: 1px solid #EEEEEE;
   .modal-content-check .link {
     margin-left: 4px;
     color: var(--accent-color);
+    text-decoration: underline;
   }
   .modal-content-button {
     margin-top: 30px;

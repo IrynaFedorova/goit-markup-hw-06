@@ -37,7 +37,7 @@
           <!--<div class="modal-content">-->
             <!--<div class="modal-header">-->
              <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-             <a href="#close" title="Close" class="close">X</a>
+             <a href="#close" title="Close" class="close">x</a>
              <label class="modal-content-label">
               Имя
               <input class="modal-content-imput" type="text" name="user-name">
@@ -63,14 +63,16 @@
               Комментарий
               <textarea class="modal-content-imput coments" name="user-comments" rows="10" placeholder="Введите текст"></textarea>
             </label>     
-            <div class="checkwindow">  
+            <!--<div class="checkwindow">-->  
               <label class="modal-content-check">
               <input class="modal-input-check hidden" type="checkbox" name="user-contract">
-              <a class="link" href="">Условия договора</a>Соглашаюсь с рассылкой и принимаю 
-              <span class="input-check-castom"><input class="modal-input-check hidden" type="checkbox" name="user-contract" width="11px" height="8px">
+              <a class="link" href="">Условия договора</a>Соглашаюсь с рассылкой и принимаю
+              <span class="input-check-castom"><svg width="14px" height="13px">
+                <use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg>
+                <!--<input class="modal-input-check hidden" type="checkbox" name="user-contract" width="11px" height="8px">-->
               </span>
               </label>
-              </div>
+              <!--</div>-->
               <button class="modal-content-button" type="submit">Отправить</button>
             </div>
           </div>
