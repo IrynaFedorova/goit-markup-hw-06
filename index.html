@@ -63,16 +63,26 @@
               Комментарий
               <textarea class="modal-content-imput coments" name="user-comments" rows="10" placeholder="Введите текст"></textarea>
             </label>     
-            <!--<div class="checkwindow">-->  
+            <div class="checkwindow">
               <label class="modal-content-check">
-              <input class="modal-input-check hidden" type="checkbox" name="user-contract">
-              <a class="link" href="">Условия договора</a>Соглашаюсь с рассылкой и принимаю
-              <span class="input-check-castom"><svg width="14px" height="13px">
-                <use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg>
-                <!--<input class="modal-input-check hidden" type="checkbox" name="user-contract" width="11px" height="8px">-->
-              </span>
+                <input class="indent" type="checkbox" name="user-contract" width="11px" height="8px">
+                <a class="link-agreement" href=""> Соглашаюсь с рассылкой и принимаю</a><a class="link-contract" href="">Условия договора</a>
+              <span class="input-check-castom" class="modal-input-check hidden">
+                <svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg>
+                <span class="input-check-castom"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-square"></use></svg>
+                <!--<input class="modal-input-check hidden" type="checkbox" name="user-contract">-->
+                
+             </span>
               </label>
-              <!--</div>-->
+              </div>
+<!--<label class="check option">
+  class="modal-input-check hidden"
+  <input class="check-input" type="checkbox">
+  <span class="check-box"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg></span>
+  <span class="check-box"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-square"></use></svg></span>
+  <a class="link-agreement" href="">Соглашаюсь с рассылкой и принимаю</a><a class="link-contract" href="">Условия договора</a>
+</label>-->
+
               <button class="modal-content-button" type="submit">Отправить</button>
             </div>
           </div>

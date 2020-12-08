@@ -1023,12 +1023,14 @@ border: 1px solid #EEEEEE;
     line-height: 1.5;
     color: #292b2c;
     background-color: #fff;
+    
   }
 
   .modal {
     position: fixed;
     width: 100%;
     height: 100%;
+    
     background-color: rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
@@ -1053,7 +1055,8 @@ border: 1px solid #EEEEEE;
   }
   
   .modal-dialog {
-    min-height: 100%;
+    min-height: 110%;
+  position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1091,6 +1094,11 @@ border: 1px solid #EEEEEE;
     top: 2%;
   }
 
+  .close:hover,
+  .close:focus{
+    color: var(--accent-color);
+  }
+
   .modal-title{
 
     width: 448px;
@@ -1114,7 +1122,7 @@ border: 1px solid #EEEEEE;
   .modal-content-label {
     position: relative;
     display: block;
-  
+
     font-weight: 400;
     font-size: 12px;
     line-height: 1.166;
@@ -1171,7 +1179,20 @@ border: 1px solid #EEEEEE;
   }
   .modal-content-check {
     display: flex;
-    /*align-items: center;*/
+    color: #757575;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    align-items: center;
+    flex-direction:row;
+    /*padding-right: 1em;*/
+    
+  
+    /*display: flex;
+    align-items: center;
     flex-direction: row-reverse;
   
     margin-top: 20px;
@@ -1181,17 +1202,81 @@ border: 1px solid #EEEEEE;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color);*/
   }
   
-  /*.checkwindow{
-    margin-right: 30px;
-  }*/
+  .checkwindow{
+    display: block;
+padding-left: 20px;
+  }
+ 
+
+/*.option{
+  display: block;
+ margin-top: 20px;
+}
+.check{
+padding-left: 1.2em;
+}
+ 
+.check-input{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+}
+
+.check-box{
+  position: absolute;
+ margin-left: -1.2em;
+  width: 16px;
+height: 15px;
+background-color:tomato;
+background-image: url(./svgmodalcheck/spritemodal-check.svg#icon-square);
+fill: white;
+fill-opacity: .5;
+stroke: black;
+}
+
+
+.check-input:checked + .check-box{
+  background-image: url(./svgmodalcheck/spritemodal-check.svg#icon-check);
+
+}
+
+.check-input:focus + .check-box{
+  background-image: url(./svgmodalcheck/spritemodal-check-focused.svg#icon-square);
+}*/
+
+  .link-contract{
+    margin-left: 4px;
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .link-agreement{
+    text-decoration:none;
+    color: #757575;
+    text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+  }
 
   .input-check-castom {
     margin-right: 7px;
     padding-bottom: 20px;
-  
+    
     width: 16px;
     height: 15px;
   
@@ -1207,8 +1292,14 @@ border: 1px solid #EEEEEE;
   }
   .input-check-castom svg {
     display: block;
-  
   }
+.indent{
+  margin-right: 9px; 
+width: 16px;
+height: 15px;
+}
+
+
   .modal-input-check:checked ~ .input-check-castom {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
@@ -1251,7 +1342,7 @@ border: 1px solid #EEEEEE;
     border-radius: 4px;
   }
   
-  
+ 
   
 
 
