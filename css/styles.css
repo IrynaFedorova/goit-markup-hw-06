@@ -1356,12 +1356,12 @@ letter-spacing: 0.03em;
   
   .input-check-castom svg {
     display: inline-block;
-    margin-right: 7px;
+    /*margin-right: 7px;*/
     width: 16px;
     height: 15px;
-    border: 2px solid #212121;
+    /*border: 2px solid #212121;*/
     fill: #FFFFFF;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 
   }
   
