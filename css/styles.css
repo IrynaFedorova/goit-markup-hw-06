@@ -1353,7 +1353,7 @@ letter-spacing: 0.03em;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-  }
+  
   .input-check-castom svg {
     display: inline-block;
     margin-right: 7px;
